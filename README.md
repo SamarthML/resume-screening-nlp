@@ -45,7 +45,7 @@ Open `http://localhost:8501` in your browser.
 - For multiple resumes, the app will rank candidates by final score
 
 ## Screenshot
-![App Screenshot](assets/screenshot.svg)
+![App Screenshot](resume_screening_app_screenshot.svg)
 
 ## Advanced Features
 
