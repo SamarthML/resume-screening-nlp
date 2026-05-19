@@ -58,8 +58,7 @@ Open `http://localhost:8501` in your browser.
 - Semantic matching depends on the chosen embedding model and may vary by phrasing
 
 ## Visuals
-- Screenshot: assets/screenshot.svg (replace with your own screenshot)
-- Demo GIF: assets/demo.gif (placeholder)
+- Screenshot: resume_screening_app_screenshot.svg
 
 ## License
 MIT
