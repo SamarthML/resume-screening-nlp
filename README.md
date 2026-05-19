@@ -33,7 +33,7 @@ Start the Streamlit app:
 streamlit run app.py
 ```
 
-Open `http://localhost:8501` in your browser.
+Open `http://localhost:8501`or 'https://unlovely-earring-cohesive.ngrok-free.dev' in your browser.
 
 ## Notes
 - The first semantic match may take a few seconds while the BERT model downloads and loads. This is normal.
