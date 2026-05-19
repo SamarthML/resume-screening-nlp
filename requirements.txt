@@ -1,0 +1,7 @@
+streamlit
+pdfplumber
+scikit-learn
+sentence-transformers
+rapidfuzz
+pytesseract
+pdf2image
