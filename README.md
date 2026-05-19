@@ -45,8 +45,7 @@ Open `http://localhost:8501` in your browser.
 - For multiple resumes, the app will rank candidates by final score
 
 ## Screenshot
-![App Screenshot](resume_screening_app_screenshot.svg)
-
+![App Screenshot](resume_screening_app_screenshot.svg).
 ## Advanced Features
 
 - Fuzzy Skill Matching: Handles variations in skill names using similarity matching
