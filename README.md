@@ -52,17 +52,27 @@ D --> E[Skill Extraction]
 E --> F[Final Score Calculation]
 F --> G[Ranking + Insights]
 
-🚀 Features
-✨ Core Intelligence
-🔍 Semantic Matching using Sentence Transformers (BERT)
-🧩 Skill Extraction (Tech, Tools, Soft Skills)
-📊 Smart Ranking System
-✨ Advanced Capabilities
-🤝 Fuzzy Skill Matching
-📷 OCR Support (Tesseract)
-🏆 Top-3 Missing Skills Recommendation
-📂 Multi-resume upload & ranking
-✨ User Experience
-🎨 Streamlit-based UI
-⚡ Fast processing
-📈 Visual scoring outputs
+
+---
+
+### Key rule (remember this)
+
+👉 Mermaid block = **ONLY diagram code**  
+👉 Everything else = **outside the block**
+
+---
+
+### Extra tip (important)
+
+GitHub Mermaid is **strict**, so avoid:
+- emojis inside nodes (sometimes breaks)
+- long text with special characters
+- missing closing ```  
+
+---
+
+If you want, I can:
+- :contentReference[oaicite:0]{index=0}
+- or :contentReference[oaicite:1]{index=1}
+
+Just tell me 👍
