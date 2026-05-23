@@ -1,64 +1,68 @@
-# Resume Screening NLP System
+# 🚀 Resume Screening NLP System  
+### *AI-powered Resume Ranking using BERT + Skill Intelligence*
 
-## Problem
-Manual resume screening is time-consuming and inconsistent.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit">
+  <img src="https://img.shields.io/badge/NLP-BERT-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge">
+</p>
 
-## Solution
-An NLP-based resume screening tool that extracts text from resumes, uses BERT semantic embeddings to match against job descriptions, and provides skill analysis and ranking.
+<p align="center">
+  <b>⚡ Automate Resume Screening | 🎯 Improve Hiring Accuracy | 🤖 AI-driven Insights</b>
+</p>
 
-## Features
-- Semantic matching using Sentence Transformers (BERT)
-- Skill extraction and categorization (technical, tools, soft skills)
-- Final match score combining semantic similarity and skill coverage
-- Multi-resume upload and ranking
-- Streamlit-based interactive UI for quick demos
+---
 
-## Tech Stack
-- Python
-- Streamlit
-- Sentence Transformers (all-MiniLM-L6-v2)
-- pdfplumber for PDF text extraction
+## 🌐 Live Demo  
+👉 **Try it here:**  
+🔗 https://resume-screening-nlp-w3jd.onrender.com/
 
-## Requirements
-Install the Python dependencies:
+---
 
-```bash
-pip install -r requirements.txt
-```
+## 🎥 Demo Preview (Add GIF Here)
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="700">
+</p>
 
-## How to Run
-Start the Streamlit app:
+> 💡 Replace this with your actual app demo GIF
 
-```bash
-streamlit run app.py
-```
+---
 
-Open `http://localhost:8501`or 'https://unlovely-earring-cohesive.ngrok-free.dev' in your browser.
+## ✨ What Makes This Special?
 
-## Notes
-- The first semantic match may take a few seconds while the BERT model downloads and loads. This is normal.
-- The final score is a combination of semantic similarity (BERT) and skill coverage; both are normalized to a 0–1 scale and averaged, then displayed as a percentage.
+🔥 Traditional resume screening is slow, biased, and inconsistent.  
+This system replaces it with:
 
-## Example usage
-- Upload one or more PDF resumes
-- Paste the job description
-- For multiple resumes, the app will rank candidates by final score
+- ⚡ **Instant AI-based ranking**
+- 🧠 **Deep semantic understanding (BERT)**
+- 🎯 **Skill gap detection**
+- 📊 **Explainable scoring system**
 
-## Screenshot
-![App Screenshot](resume_screening_app_screenshot.svg).
-## Advanced Features
+---
 
-- Fuzzy Skill Matching: Handles variations in skill names using similarity matching
-- OCR Support: Extracts text from scanned resumes using Tesseract OCR
-- Docker Deployment: Containerized application for easy deployment
-- Top-3 Missing Skills Recommendation: Suggests the top three skills the candidate can learn to improve their match
+## 🧠 How It Works
 
-## Limitations
-- OCR accuracy depends on image quality
-- Semantic matching depends on the chosen embedding model and may vary by phrasing
+```mermaid
+flowchart LR
+A[Upload Resume PDFs] --> B[Text Extraction]
+B --> C[BERT Embeddings]
+C --> D[Semantic Matching]
+D --> E[Skill Extraction]
+E --> F[Final Score Calculation]
+F --> G[Ranking + Insights]
 
-## Visuals
-- Screenshot: resume_screening_app_screenshot.svg
-
-## License
-MIT
+🚀 Features
+✨ Core Intelligence
+🔍 Semantic Matching using Sentence Transformers (BERT)
+🧩 Skill Extraction (Tech, Tools, Soft Skills)
+📊 Smart Ranking System
+✨ Advanced Capabilities
+🤝 Fuzzy Skill Matching
+📷 OCR Support (Tesseract)
+🏆 Top-3 Missing Skills Recommendation
+📂 Multi-resume upload & ranking
+✨ User Experience
+🎨 Streamlit-based UI
+⚡ Fast processing
+📈 Visual scoring outputs
