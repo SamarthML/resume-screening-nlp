@@ -22,7 +22,7 @@
 
 ## 🎥 Demo Preview (Add GIF Here)
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="700">
+  <img src="https://github.com/SamarthML/resume-screening-nlp/blob/main/resume_screening_app_screenshot.svg" width="700">
 </p>
 
 > 💡 Replace this with your actual app demo GIF
